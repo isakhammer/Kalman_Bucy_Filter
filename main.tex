@@ -1,0 +1,45 @@
+%\documentclass[10.8pt, a4paper, USenglish, twocolumn ]{article}
+\documentclass[10.8pt, a4paper, USenglish, twocolumn ]{article}
+\usepackage{kyblab} % Contains all included packages. See kyblab.sty.
+\usepackage{amsmath}
+\addbibresource{bibliography.bib} % Makes the bibliography file available to biblatex.
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+
+
+\newenvironment{proof}{\paragraph{Proof:}}{\hfill$\square$}
+
+\usepackage[useregional]{datetime2}
+\newcommand{\mydate}{\DTMdisplaydate{2021}{11}{28}{-1}}
+
+\begin{document}
+
+
+
+% Titlepage
+\title{MA8109 Stochastic Processes and Differential Equations\\Kalman Bucy Filter}
+\author{Isak Hammer }
+\date{\mydate}
+\begin{titlepage}
+    \maketitle
+    \begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{figures/front_page/itk_ntnu.jpg}\\
+    Department of Mathematics
+    \end{figure}
+    \thispagestyle{empty}
+\end{titlepage}
+
+
+% Main content
+\newpage
+\setcounter{page}{1}
+\include{part1}
+
+% References
+\printbibliography{}
+
+
+\end{document}
