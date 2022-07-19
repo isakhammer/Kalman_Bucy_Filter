@@ -1,2 +1,2 @@
-# Kalman_Bucy_Filter
+# Kalman Bucy Filter
 Simple theoretical investigation of Kalman Bucy Filter
