@@ -1,2 +1,2 @@
 # Kalman Bucy Filter
-Simple theoretical investigation of Kalman Bucy Filter
+Simple theoretical investigation of Kalman Bucy Filter for the project given in [MA8109 Stochastic processes and differential equations](https://wiki.math.ntnu.no/ma8109/2021h/start).
